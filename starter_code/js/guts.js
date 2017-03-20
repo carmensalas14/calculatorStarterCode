@@ -5,41 +5,51 @@
 
 function divide(x,y)
 {
-	//Write your code below this line
-	
+    if(y===0) {
+        return 0
+    }
+    return x/y;
+    
+    
 }
 
 function multiply(x,y)
 {
-	
+	return x * y;
 }
 
 function subtract(x,y)
 {
-	
+	return x -y;
 }
 
 function add(x,y)
 {
-	
+	return x + y;
 }
 
 function power(x,y)
 {
-	
+    var power = Math.pow(x,y);
+    return power;
+ 
 }
+
 
 function square_root(x)
 {
-	
+    var root = Math.sqrt(x);
+    return root;
 }
 
 function logBase10(x)
 {
-	
+    var log10 = Math.log10(x);
+    return log10;
 }
 
 function generateRandomNumber()
 {
-	
+    var random = Math.random();
+    return random * 106;
 }
